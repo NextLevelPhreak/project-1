@@ -62,6 +62,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -69,12 +70,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 75%;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.25) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -102,6 +103,21 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card-2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 50px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-2:hover {
+  border-color: #ff99ff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -120,7 +136,7 @@ ul.skills {
   background: #0399ff;
 }
 .jobs li {
-  font-size: 17px; 
+  font-size: 17px;
 }
 footer {
   width: 100%;
